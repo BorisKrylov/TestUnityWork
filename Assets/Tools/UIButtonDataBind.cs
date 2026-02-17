@@ -1,4 +1,4 @@
-﻿using AxGrid.Base;
+using AxGrid.Base;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -130,9 +130,8 @@ namespace AxGrid.Tools.Binders{
 			{
 				Model?.EventManager.Invoke("SoundPlay", "Click");
 				
-				Settings.Fsm?.Invoke("OnBtn", buttonName);
-				
-				Model?.EventManager.Invoke($"On{buttonName}Click");
+				Settings.Invoke("OnBtn", buttonName);
+				Settings.Invoke($"On{buttonName}Click");
 			}
 			cancel = false;
 		}

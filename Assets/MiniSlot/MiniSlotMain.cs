@@ -1,27 +1,30 @@
 ﻿using AxGrid;
 using AxGrid.Base;
 using AxGrid.FSM;
+using MiniSlot.States;
 using UnityEngine;
 
 namespace MiniSlot
 {
+    /// <summary>
+    /// Основная точка входа в FSM слотов
+    /// </summary>
     public class MiniSlotMain : MonoBehaviourExtBind
     {
-        private MiniSlotView view;
-
-        [OnAwake]
-        private void AwakeThis()
-        {
-            Log.Debug("ExMain Awake");
-        }
-        
         [OnStart]
         private void StartThis()
         {
-            Log.Debug("ExMain Start");
-
+            Log.Debug("MiniSlot Start");
+            
             Settings.Fsm = new FSM();
-            MiniSlotFsm.Install(Settings.Fsm);
+            
+            Settings.Fsm.Add(new InitState());
+            Settings.Fsm.Add(new IdleState());
+            Settings.Fsm.Add(new StartingState());
+            Settings.Fsm.Add(new SpinState());
+            Settings.Fsm.Add(new StoppingState());
+            
+            Settings.Fsm.Start(Consts.State.StateInit);
         }
 
         [OnUpdate]

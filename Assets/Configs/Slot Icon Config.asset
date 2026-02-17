@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a23454b3baa4b51aa601720f7ee7f61, type: 3}
+  m_Name: Slot Icon Config
+  m_EditorClassIdentifier: Assembly-CSharp::MiniSlot.SlotIconConfig
+  <Icons>k__BackingField:
+  - {fileID: 21300000, guid: 3311bd904d777734396b35a52eb8f32c, type: 3}
+  - {fileID: 21300000, guid: 366730b233c612a49ba4791ed1cec69a, type: 3}
+  - {fileID: 21300000, guid: b207a4f20c0e4c54083f6e862abfad47, type: 3}
+  - {fileID: 21300000, guid: b6a52652573e5194c84f2cf96a7e23a5, type: 3}
+  - {fileID: 21300000, guid: 21d40e2928162e04e90f950a577898e7, type: 3}
+  - {fileID: 21300000, guid: 5c91389011f52454b9aded04497d6d71, type: 3}
+  - {fileID: 21300000, guid: 7dd2a17e302245142af5ff08cb1e4e3d, type: 3}
+  - {fileID: 21300000, guid: a82891c6365442a4ea06791013150e68, type: 3}
+  - {fileID: 21300000, guid: 468e39320e2f5784d98ce54d52d1155a, type: 3}
+  - {fileID: 21300000, guid: f9a982655ba11534f9325c3d6a27c588, type: 3}
