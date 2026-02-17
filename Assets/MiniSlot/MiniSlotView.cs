@@ -29,7 +29,6 @@ namespace MiniSlot
 
         [Header("FX")]
         [SerializeField] private ParticleSystem _burstParticles;
-        [SerializeField] private float _particlesZ = 5f;
 
         private readonly List<Sprite> _iconPool = new();
         
@@ -235,18 +234,6 @@ namespace MiniSlot
             if (_burstParticles == null)
                 return;
             
-            RectTransform centerCell = _cells[CenterIndex]?.rectTransform;
-            
-            if (centerCell == null)
-            {
-                _burstParticles.Play(true);
-                return;
-            }
-
-            Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(null, centerCell.position);
-            Vector3 world = _cachedCamera.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, _particlesZ));
-            
-            _burstParticles.transform.position = world;
             _burstParticles.Play(true);
         }
     }

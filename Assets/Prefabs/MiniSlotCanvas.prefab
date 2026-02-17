@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6103599822608233208}
   - component: {fileID: 3709298208995286313}
   - component: {fileID: 8599565695948506064}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 519748699255405490}
   - component: {fileID: 5097801392954851623}
   - component: {fileID: 4121013293502685246}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 739092485003319512}
   - component: {fileID: 4315441171138886784}
   - component: {fileID: 203920622435057251}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TopFade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 9152386650586850578}
   - component: {fileID: 6535405817745432454}
   - component: {fileID: 8369720572792306215}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cell_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 3717105970179947137}
   - component: {fileID: 2774830879807051753}
   - component: {fileID: 6604163520191086972}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3205453272208963941}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ReelRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 5847394862703884189}
   - component: {fileID: 4081650540594328799}
   - component: {fileID: 7517915568399189672}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 6805012942180673749}
   - component: {fileID: 4301482807628765819}
   - component: {fileID: 1737281363549755428}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 2639842932631008948}
   - component: {fileID: 751337324112197447}
   - component: {fileID: 8572750853310456134}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cell_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 8559856039965051643}
   - component: {fileID: 4844400190914965861}
   - component: {fileID: 3604669668815278558}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cell_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 5359834453802849366}
   - component: {fileID: 2478410586182198596}
   - component: {fileID: 4753920416916381219}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 5204193217586836117}
   - component: {fileID: 7975870220959308590}
   - component: {fileID: 4525333229842103758}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 8740650828797518339}
   - component: {fileID: 1645539193056627519}
   - component: {fileID: 7781940970843080275}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cell_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 4757857828593644187}
   - component: {fileID: 7758282593436320707}
   - component: {fileID: 1752609485820812017}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CenterHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1304,7 @@ GameObject:
   - component: {fileID: 1156965591527752101}
   - component: {fileID: 468423802548341432}
   - component: {fileID: 1236093005829412386}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cell_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 1673447523689095799}
   - component: {fileID: 6683766940443116696}
   - component: {fileID: 2553138365169044297}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: MiniSlotCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 7479024912646050356}
   - component: {fileID: 6526023164149663997}
   - component: {fileID: 9100475237771661004}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BottomFade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1588,7 +1588,7 @@ GameObject:
   - component: {fileID: 3001454416697073451}
   - component: {fileID: 8558190966341705117}
   - component: {fileID: 2847011294077941420}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1726,7 +1726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8568240779545823656}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
